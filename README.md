@@ -22,6 +22,7 @@ pm2 start server.js
 pm2 save
 pm2 startup systemd
 ```
+To experiment with this, use the `docker build` command with `-f failing.Dockerfile` to get the corresponding image. 
 
 This failed in my case as well which drove me further.
 
